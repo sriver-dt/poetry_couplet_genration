@@ -108,7 +108,7 @@ class CustomDataloader:
         train_datas = new_datas_clone[: train_len]
         test_datas = new_datas_clone[train_len:]
 
-        # dataset = MyDataset(new_datas)
+        # dataset = MyDataset(train_datas)
         # dataloader = DataLoader(
         #     dataset=dataset,
         #     shuffle=True,

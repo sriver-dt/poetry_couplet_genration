@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeEditorTabs">
+    <option name="activeSessionId" value="2dd95bb8-e6c5-4fb9-b125-b7830a69ffb8" />
+    <option name="openSessionIds">
+      <list>
+        <option value="553a9c6b-89f7-4aef-a767-b830ab1b2bed" />
+        <option value="2dd95bb8-e6c5-4fb9-b125-b7830a69ffb8" />
+      </list>
+    </option>
+    <option name="sessionPaths">
+      <map>
+        <entry key="2dd95bb8-e6c5-4fb9-b125-b7830a69ffb8" value="/sessions/8b4267d3-ea85-4280-a4cb-b4e7f093d691" />
+        <entry key="553a9c6b-89f7-4aef-a767-b830ab1b2bed" value="/sessions/new" />
+      </map>
+    </option>
+    <option name="sessionTitles">
+      <map>
+        <entry key="2dd95bb8-e6c5-4fb9-b125-b7830a69ffb8" value="请分析本项目的mcp服务提供的工具如何调用的，我并没有在提示词中看到加入MCPserver相关的工具" />
+        <entry key="553a9c6b-89f7-4aef-a767-b830ab1b2bed" value="Claude Code" />
+      </map>
+    </option>
+  </component>
+</project>

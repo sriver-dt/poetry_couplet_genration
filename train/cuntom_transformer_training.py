@@ -14,7 +14,7 @@ warnings.filterwarnings(action='ignore', category=torch.jit.TracerWarning)
 
 
 def training():
-    batch_size = 64
+    batch_size = 32
     total_epoch = 10
     lr = 0.00005
     hidden_size = 768

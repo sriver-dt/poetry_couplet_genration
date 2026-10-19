@@ -5,12 +5,19 @@ import torch
 import torch.nn as nn
 from transformers import AutoModel, AutoConfig
 
+import warnings
+
+warnings.filterwarnings(action='ignore', category=torch.jit.TracerWarning)
+warnings.filterwarnings(action='ignore', category=FutureWarning)
+warnings.filterwarnings(action='ignore', category=UserWarning)
+
 
 class MT5BaseNet(nn.Module):
     def __init__(self, model_path: Union[str, PathLike]):
         super(MT5BaseNet, self).__init__()
         self.config = AutoConfig.from_pretrained(model_path)
-        self.mt5_model = AutoModel.from_pretrained(model_path)
+        self.config.tie_word_embeddings = False
+        self.mt5_model = AutoModel.from_pretrained(model_path, config=self.config)
         self.output = nn.Linear(self.config.d_model, self.config.vocab_size)
 
     def forward(self,

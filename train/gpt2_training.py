@@ -27,7 +27,7 @@ def training():
     lr = 0.0005
 
     # mt5_path = r'/home/featurize/data/t5-pegasus-small'
-    gpt2_path = r'C:\Users\du\.cache\huggingface\hub\hub\gpt2'
+    gpt2_path = r'D:\huggingface\hub\gpt2'
     data_dir = os.path.join(root_dir, '../datas')
     output_dir = os.path.join(root_dir, '../output/gpt2')
     os.makedirs(output_dir, exist_ok=True)
